@@ -1,0 +1,58 @@
+#fold-inner {
+    background-image:url(../images/final.services.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+#fc h2
+{
+margin:50px
+
+}
+.page-info {
+    text-align: center;
+    margin-top:10px  ;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+}
+
+/* start services*/
+#services .container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#services .container .area {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+#services .container .area .area-img img {
+    max-width: 100%;
+}
+
+#services .container .area .area-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#services .container .area .area-content .area-btn {
+    border: 1px solid;
+    padding: 15px 20px;
+    background-color: rgb(34, 30, 25);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#services .container .area .area-content .area-btn:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+/*  end services*/

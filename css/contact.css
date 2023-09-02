@@ -1,0 +1,92 @@
+/* start fold-inner style(contain img) */
+#fold-inner{
+    background-image: url(../images/contact.icon.jpg);
+    height: 600px;
+    background-size:cover;
+    background-position: center;
+}
+
+/* end fold-inner style(contain img) */
+
+
+/* start email phone adress style */
+
+    .contact-area {
+        width: 40%;
+        text-align: center;
+        padding: 50px 20px;
+        border:4px solid ;
+        margin: 40px ;
+        padding: 30px;
+        border-radius:10px ;
+        position: relative;
+        animation-name: topToBottom;
+        animation-duration: 2s;
+    }
+    .contact-area p{
+        margin: 30px;
+        font-size:17px ;
+        color:cornflowerblue;
+        font-family:pacifico;
+
+    }
+    p.top-word{
+        font-weight: bolder;
+        font-size: 40px;
+        color: black;
+        font-family: pt serif;
+    }
+
+    @keyframes topToBottom{
+        0%{top: -1500px;}
+        100%{top: 0px;}
+    }
+
+
+
+
+/*end email phone adress style */
+/* start contact us*/
+
+#contact-us .container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    animation-name: topToBottom;
+    animation-duration: 2s;
+}
+
+#contact-us .container form {
+    width: 70%;
+    padding: 20px;
+}
+
+#contact-us .container form label {
+    display: flex;
+    margin: 15px;
+}
+
+#contact-us .container form .form-group input,
+#contact-us .container form .form-group textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+}
+
+#contact-us .container form .form-group .submit {
+    border: 1px solid;
+    padding: 15px 20px;
+    background-color: rgb(111, 102, 91);
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#contact-us .container form .form-group .submit:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+/* end contact us*/

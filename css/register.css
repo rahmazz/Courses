@@ -1,0 +1,62 @@
+    /* start register page style */
+    body{
+        background-color:white;
+    }
+    body form fieldset legend{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color:#34495E;
+
+    }
+    form{
+        width: 450px;
+        margin: 200px auto;
+        text-align: left;
+        background-color:white;
+    }
+    form input{
+        margin:15px;
+        padding: 10px;
+    }
+    form label{
+        color:#34495E;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 30px;
+    }
+    /* form a{
+        float: right;
+        margin-right: 10px;
+        text-decoration: none;
+        color:#34495E;
+        font-size: 17px;
+    } */
+    input#check{
+        float: left;
+        margin: 20px;
+    }
+    form label.check{
+        float: left;
+        margin-top: -15px;
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    form button{
+        width: 90%;
+        margin: -10px 0 0 20px;
+        font-size: 25px;
+        font-weight: bolder;
+        background-color:#0000CC;
+        color: aliceblue;
+        border-color:#D4DAE0;
+        padding: 10px;
+        /* border-radius: 6%; */
+    }
+    form button:hover{
+        background-color: lightsteelblue;
+        color: black;
+        cursor: pointer;
+    }
+
+    /* end regeiter page style */

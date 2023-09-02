@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Fira+Sans&family=Jomhuria&family=Open+Sans:ital@1&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Fira+Sans&family=Jomhuria&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <style>
+            /* start register page style */
+    body{
+        background-color:white;
+    }
+    body form fieldset legend{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color:#34495E;
+
+    }
+    form{
+        width: 450px;
+        margin: 200px auto;
+        text-align: left;
+        background-color:white;
+    }
+    form input{
+        margin:15px;
+        padding: 10px;
+    }
+    form label{
+        color:#34495E;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 30px;
+    }
+    /* form a{
+        float: right;
+        margin-right: 10px;
+        text-decoration: none;
+        color:#34495E;
+        font-size: 17px;
+    } */
+    input#check{
+        float: left;
+        margin: 20px;
+    }
+    form label.check{
+        float: left;
+        margin-top: -15px;
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    form button{
+        width: 90%;
+        margin: -10px 0 0 20px;
+        font-size: 25px;
+        font-weight: bolder;
+        background-color:#0000CC;
+        color: aliceblue;
+        border-color:#D4DAE0;
+        padding: 10px;
+        /* border-radius: 6%; */
+    }
+    form button:hover{
+        background-color: lightsteelblue;
+        color: black;
+        cursor: pointer;
+    }
+
+    /* end regeiter page style */
+
+    </style>
+
+</head>
+
+
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Register</legend>
+            <label>Name</label><br>
+            <input type="text" required placeholder="Creat Username" size="50px" autofocus maxlength="15"><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter Email" size="50" required><br>
+            <label>password</label><br>
+            <input type="password" required placeholder="Creat your Password" size="50px" range maxlength="15" minlength="5"><br>
+            <label>phone</label><br>
+            <input required placeholder="Enter Your Phone" size="50px" range maxlength="15" minlength="11"><br>
+            <!-- <label>User  ID</label>
+            <input  required placeholder="Enter ID" size="53px" range maxlength="10"><br> -->
+            <input type="checkbox" checked id="check">
+            <label for="check" class="check">Remember me</label>
+            <button>submit</button>
+        </fieldset>
+        
+    </form>
+</body>
+
+
+</html>

@@ -1,0 +1,81 @@
+@media screen and (max-width:768px) and (max-width:1100px){
+     #services .container .area {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:768px)
+{
+    header .container{
+        flex-direction: column;
+    }
+    header .container nav ul li a{
+        font-size: 11px;
+    }
+    #fold{
+        height: 350px;
+    }
+    #fold .container h1{
+        font-size: 30px;
+
+    }
+    #fold .container p{
+        font-size: 15px;
+        margin-left: -80px;
+    }
+/* ----------------------------------------------------------------- */
+    
+    #about-us .container {
+        font-size: 20px;
+        text-align: center;
+    }
+    #about-us .container .left {
+        width: 100%;
+        text-align: center;
+        padding: 15px 10px;
+    }
+    #about-us .container .right {
+        width: 100%;
+        text-align: center;
+        padding: 15px 10px;
+        margin-left: auto;
+    }
+    #ffold-inner{
+        height: 300px;
+    }
+    #about-us-page .container{
+        text-align: center;
+    }
+    #about-us-page .container h2{
+    font-size: 25px;
+    }
+    #about-us-page .container p{
+        font-size: 16px;
+    }
+    #strategy .containerthree{
+        flex-direction: column;
+    }
+    #strategy .containerthree .about-area{
+        width: 80%;
+    }
+/* ----------------------------------------------------------------- */
+#foldd-inner{
+    height: 300px;
+}
+    #services .container  {
+        flex-direction: column;
+    }
+    #services .container .area {
+        width: 100%;
+    }
+
+    #contact-us .container form {
+        width: 100%;
+    }
+/* ----------------------------------------------------------------- */
+#fold-innerr{
+    height: 300px;
+}
+    
+}
